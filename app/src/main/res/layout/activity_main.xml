@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ToggleButton
+            android:id="@+id/tbtn_CatCast"
+            android:background="@drawable/tbtn_selector_catcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textOff=""
+            android:textOn=""
+            />
+
+        <TextView
+            android:id="@+id/tv_CatCast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="@string/textCat"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        >
+
+        <ToggleButton
+            android:id="@+id/tbtn_Ver"
+            android:background="@drawable/tbtn_selector_ver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:textOff=""
+            android:textOn=""
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
